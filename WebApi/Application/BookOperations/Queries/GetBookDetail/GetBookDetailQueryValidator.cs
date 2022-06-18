@@ -8,7 +8,7 @@ using WebApi.Common;
 using WebApi.DbOperations;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
-namespace WebApi.BookOperations.GetBookDetail
+namespace WebApi.Application.BookOperations.Queries.GetBookDetail
 {
     public class GetBookDetailQueryValidator : AbstractValidator<GetBookDetailQuery>
     {
