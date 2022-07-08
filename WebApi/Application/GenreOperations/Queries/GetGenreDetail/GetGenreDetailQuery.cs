@@ -14,16 +14,16 @@ namespace WebApi.Application.GenreOperations.Queries.GetGenreDetail{
             _mapper = mapper;
             _context = context;
         }
-        public GetGenreDetailQuery Handle(){
+        public GenreDetailViewModel Handle(){
             var genre = _context.Genres.SingleOrDefault(x => x.IsActive && x.Id == GenreId);
             if (genre is null)
                 throw new InvalidOperationException("Kitap türü bulunamadı.");
 
-            return _mapper.Map<GetGenreDetailQuery>(genre);
+            return _mapper.Map<GenreDetailViewModel>(genre);
             
         }
     }
-    public class GenreViewModel{
+    public class GenreDetailViewModel{
         public int Id { get; set; }
         public string Name { get; set; }
     }

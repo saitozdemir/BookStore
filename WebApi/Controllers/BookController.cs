@@ -9,7 +9,7 @@ using WebApi.Application.BookOperations.Queries.GetBooks;
 using WebApi.DbOperations;
 using static WebApi.Application.BookOperations.Commands.CreateBook.CreateBookCommand;
 
-namespace WebApi.AddControllers
+namespace WebApi.Controllers
 {
     [ApiController]
     [Route("[controller]s")]
