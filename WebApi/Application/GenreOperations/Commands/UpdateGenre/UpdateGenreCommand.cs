@@ -22,7 +22,7 @@ namespace WebApi.Application.GenreOperations.Commands.UpdateGenre
             if (_context.Genres.Any(x=>x.Name.ToLower() == Model.Name.ToLower() && x.Id != GenreId))
                 throw new InvalidOperationException("Aynı isimli kitap türü zaten mevcut.");
 
-            genre.Name = Model.Name.Trim() == default ? Model.Name : genre.Name;
+            genre.Name = string.IsNullOrEmpty(Model.Name.Trim()) ? Model.Name : genre.Name;
             genre.IsActive = Model.IsActive;
             _context.SaveChanges();
         }

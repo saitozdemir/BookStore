@@ -16,13 +16,13 @@ namespace WebApi.Application.GenreOperations.Queries.GetGenres
             _mapper = mapper;
         }
 
-        public List<GenreViewModel> Handle(){
+        public List<GenresViewModel> Handle(){
             var genres = _context.Genres.Where(x => x.IsActive).OrderBy(x => x.Id);
-            List<GenreViewModel> returnObj = _mapper.Map<List<GenreViewModel>>(genres);
+            List<GenresViewModel> returnObj = _mapper.Map<List<GenresViewModel>>(genres);
             return returnObj;
         }
     }
-    public class GenreViewModel{
+    public class GenresViewModel{
         public int Id { get; set; }
         public string Name { get; set; }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XMXoYb+7/D6AIDxxQPcQJgHVsiC2ICKpIBik8N9csEGCtTczh9yxRftSQECZZPlEjgvwx0hyIW++n2bzIKpElQ==",
+  "dgSpecHash": "HCuwLj4VgkeKBlEwZbk513D3AQLIlrXnRNeLM9zZtb756eSS0WLwgdFiS4UfVtjXxJ0P1HyQwfL685FWZREajA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sait\\source\\repos\\BookStore\\WebApi\\WebApi.csproj",
+  "projectFilePath": "c:\\Users\\Sait\\source\\repos\\BookStore\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sait\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Sait\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

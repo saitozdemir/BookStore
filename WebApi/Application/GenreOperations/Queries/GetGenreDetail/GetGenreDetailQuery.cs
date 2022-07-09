@@ -8,12 +8,16 @@ namespace WebApi.Application.GenreOperations.Queries.GetGenreDetail{
         public int GenreId { get; set; }
         private readonly BookStoreDbContext _context;
         private readonly IMapper _mapper;
+        private BookStoreDbContext context;
+        private IMapper mapper;
 
-        public GetGenreDetailQuery(IMapper mapper, BookStoreDbContext context)
+        public GetGenreDetailQuery(BookStoreDbContext context, IMapper mapper)
         {
             _mapper = mapper;
             _context = context;
         }
+        
+
         public GenreDetailViewModel Handle(){
             var genre = _context.Genres.SingleOrDefault(x => x.IsActive && x.Id == GenreId);
             if (genre is null)
