@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ia1utYD2jhpMCps6C4kCEnzcs8ncRwXHBGht03UbUq5tTrAq6uMLke6mJGfeleGPc8GzRa1b+O00uaxICmUVCQ==",
+  "dgSpecHash": "WiwW8pZ4UlVV+2VFovgFnJxolQi1xrvey25Lhi92MN29kzAla3SEsLltaZWwX5jBUik5goJ023oBKMkCoa2ebw==",
   "success": true,
   "projectFilePath": "c:\\Users\\Sait\\source\\repos\\BookStore\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj",
   "expectedPackageFiles": [
@@ -12,9 +12,9 @@
     "C:\\Users\\Sait\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
     "C:\\Users\\Sait\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
     "C:\\Users\\Sait\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\Sait\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.16\\microsoft.entityframeworkcore.5.0.16.nupkg.sha512",
-    "C:\\Users\\Sait\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.16\\microsoft.entityframeworkcore.abstractions.5.0.16.nupkg.sha512",
-    "C:\\Users\\Sait\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.16\\microsoft.entityframeworkcore.analyzers.5.0.16.nupkg.sha512",
+    "C:\\Users\\Sait\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.17\\microsoft.entityframeworkcore.5.0.17.nupkg.sha512",
+    "C:\\Users\\Sait\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.17\\microsoft.entityframeworkcore.abstractions.5.0.17.nupkg.sha512",
+    "C:\\Users\\Sait\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.17\\microsoft.entityframeworkcore.analyzers.5.0.17.nupkg.sha512",
     "C:\\Users\\Sait\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.16\\microsoft.entityframeworkcore.inmemory.5.0.16.nupkg.sha512",
     "C:\\Users\\Sait\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Sait\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
