@@ -1,5 +1,6 @@
 using AutoMapper;
 using FluentValidation;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebApi.Application.BookOperations.Commands.CreateBook;
 using WebApi.Application.BookOperations.Commands.DeleteBook;
@@ -11,6 +12,7 @@ using static WebApi.Application.BookOperations.Commands.CreateBook.CreateBookCom
 
 namespace WebApi.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("[controller]s")]
     public class BookController : ControllerBase
@@ -29,9 +31,7 @@ namespace WebApi.Controllers
         {
             GetBooksQuery query = new GetBooksQuery(_context,_mapper);
             var result = query.Handle();
-            return Ok(result);
-            // var bookList = _context.Books.OrderBy(x=>x.Id).ToList<Book>();
-            // return bookList;
+            return Ok(result);         
         }
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
@@ -46,12 +46,7 @@ namespace WebApi.Controllers
             result = query.Handle();
             return Ok(result);
         }
-        // [HttpGet]
-        // public Book Get([FromQuery] string id)
-        // {
-        //     var book = _context.Books.Where(book=>book.Id == Convert.ToInt32(id)).SingleOrDefault();
-        //     return book;
-        // }
+        
         [HttpPost]
         public IActionResult AddBook([FromBody] CreateBookModel newBook)
         {

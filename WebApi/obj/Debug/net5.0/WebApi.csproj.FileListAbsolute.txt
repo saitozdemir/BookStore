@@ -40,3 +40,10 @@ C:\Users\Sait\source\repos\BookStore\WebApi\obj\Debug\net5.0\WebApi.dll
 C:\Users\Sait\source\repos\BookStore\WebApi\obj\Debug\net5.0\ref\WebApi.dll
 C:\Users\Sait\source\repos\BookStore\WebApi\obj\Debug\net5.0\WebApi.pdb
 C:\Users\Sait\source\repos\BookStore\WebApi\obj\Debug\net5.0\WebApi.genruntimeconfig.cache
+C:\Users\Sait\source\repos\BookStore\WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Sait\source\repos\BookStore\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Sait\source\repos\BookStore\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Sait\source\repos\BookStore\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Sait\source\repos\BookStore\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Sait\source\repos\BookStore\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Sait\source\repos\BookStore\WebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

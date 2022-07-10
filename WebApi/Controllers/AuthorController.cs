@@ -1,12 +1,14 @@
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
-using WebApi.Application.BookOperations.Commands.CreateBook;
+using WebApi.Application.AuthorOperations.Commands.CreateAuthor;
 using WebApi.DbOperations;
-using static WebApi.Application.BookOperations.Commands.CreateBook.CreateUserCommand;
+using static WebApi.Application.AuthorOperations.Commands.CreateAuthor.CreateAuthorCommand;
 
 namespace WebApi.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("[controller]s")]
     public class AuthorController : ControllerBase
@@ -22,9 +24,9 @@ namespace WebApi.Controllers
             _context = context;
         }
         [HttpPost]
-        public IActionResult Create([FromBody] CreateUserModel newUser)
+        public IActionResult Create([FromBody] CreateAuthorModel newUser)
         {
-            CreateUserCommand command = new CreateUserCommand(_context, _mapper);
+            CreateAuthorCommand command = new CreateAuthorCommand(_context, _mapper);
             command.Model = newUser;
             command.Handle();
 
