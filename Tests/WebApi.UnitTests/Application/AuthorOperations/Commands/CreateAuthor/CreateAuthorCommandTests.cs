@@ -33,7 +33,7 @@ namespace Application.AuthorOperations.Commands.CreateAuthor
             //act (Çalıştırma)-assert (Doğrulama)
             FluentActions
                 .Invoking (()=>command.Handle())
-                .Should().Throw<InvalidOperationException>().And.Message.Should().Be("Kitap zaten mevcut");
+                .Should().Throw<InvalidOperationException>().And.Message.Should().Be("Yazar zaten mevcut");
                 
         }
         [Fact]
