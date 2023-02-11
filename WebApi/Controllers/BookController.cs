@@ -13,7 +13,7 @@ using static WebApi.Application.BookOperations.Commands.CreateBook.CreateBookCom
 namespace WebApi.Controllers
 {
     [Authorize]
-    [ApiController]
+    [ApiController] //1. Prosses
     [Route("[controller]s")]
     public class BookController : ControllerBase
     {
